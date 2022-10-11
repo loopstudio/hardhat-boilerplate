@@ -2,8 +2,11 @@
   "name": "hardhat-boilerplate",
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test ./test/unit/* --network hardhat",
-    "test-staging": "hardhat test ./test/staging/* --network goerli",
+    "test": "hardhat test ./test/unit/*spec.ts --network hardhat",
+    "test-staging": "hardhat test ./test/staging/*.spec.ts --network goerli",
+    "deploy": "hardhat deploy --network hardhat",
+    "deploy-muambai": "hardhat deploy --network muambai",
+    "deploy-goerli": "hardhat deploy --network goerli",
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write .",

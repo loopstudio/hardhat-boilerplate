@@ -1,0 +1,17 @@
+name: test-contracts
+
+on:
+  pull_request:
+    branches:
+      - "main"
+      - "develop"
+      - /^feature.*/
+      - /^hotfix.*/
+      - /^fix.*/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install && npm run test
