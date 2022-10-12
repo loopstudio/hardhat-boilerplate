@@ -120,3 +120,7 @@ In order to run them, a contract deploy must be done. Open two consoles and:
 2. Run `yarn hardhat deploy --network localhost` on the second one
 
 You can execute tasks on the second terminal and see the transactions on the first one.
+
+# Contributing
+
+Contributions are always welcome. Please open a PR or an issue.
