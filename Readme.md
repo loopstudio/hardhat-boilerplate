@@ -53,7 +53,7 @@ Hardhat development boilerplate that enables to:
 ├── helper-hardhat-config.ts
 ```
 
-What does each folder represents?
+### What does each folder represents?
 
 - contracts: where contracts are placed
 - deploy: `hardhat-deploy` scripts to deploy to localhost, testnet and mainnet. The scripts also verifies contract source code to `etherscan`
@@ -65,7 +65,7 @@ What does each folder represents?
 - hardhat.config.ts: hardhat configuration file. Currenlty supports `ethereum` and `polygon` networks configuration.
 - helper-hardhat-config.ts: helper file containing information per network, like # of confirmations, Chainlink smart contract addresses and subscriptions.
 
-` `
+
 
 ## Getting started
 
