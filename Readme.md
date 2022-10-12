@@ -77,13 +77,13 @@ COINMARKETCAP_API_KEY=[YOUR_COINMARKETCAP_API_KEY] // Optional: only needed by h
 
 ## Instalation
 
-- `npm install` or `yarn install`
+- `yarn install` (we recommend using yarn over npm because resolves the `ethers` dependency correctly when using `hardhat-deploy`)
 
 ## Deploy
 
-- Deploy to localhost `npm run deploy`
-- Deploy to ethereum testnet `npm run deploy-goerli`
-- Deploy to polygon testnet `npm run deploy-muambai`
+- Deploy to localhost `yarn run deploy`
+- Deploy to ethereum testnet `yarn run deploy-goerli`
+- Deploy to polygon testnet `yarn run deploy-muambai`
 
 ## Test
 
@@ -91,20 +91,20 @@ Tests are separated between `unit` and `staging` tests.
 
 `unit` tests are for testing contracts public API meanwhile `staging` tests are for running on testnet.
 
-- Unit: `npm run test`
-- Staging: `npm run test-staging`
-- Coverage: `npm run coverage`
+- Unit: `yarn run test`
+- Staging: `yarn run test-staging`
+- Coverage: `yarn run coverage`
 
 ## Types
 
 This boilerplate uses `typechain` capabilties to prevent errors and ensure correct behaviour, therefore types should be generated:
 
-- `npm run types`
+- `yarn run types`
 
 ## Prettier and linter
 
-- `npm run format`
-- `npm run lint`
+- `yarn run format`
+- `yarn run lint`
 
 ## Example tasks
 
