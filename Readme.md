@@ -3,7 +3,7 @@
   <img src="./hardhat.png" width="225" alt="Hardhat logo">
   <div align="center"> Created and maintained with ❤️ by
     <a href="[https://loopstudio.dev/](https://loopstudio.dev/)">LoopStudio</a>
-    <img src="./loop.png" width="15" alt="Hardhat logo">
+    <img src="./loop.png" width="20" alt="Hardhat logo">
 
   </div>
 
