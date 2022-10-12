@@ -121,6 +121,12 @@ In order to run them, a contract deploy must be done. Open two consoles and:
 
 You can execute tasks on the second terminal and see the transactions on the first one.
 
+## Continuous integration
+
+Each PR made to gitflow standard branches will execute the unit tests using Github Actions.
+
+Configuration can be found at `.github/workflows/tests.yml`
+
 # Contributing
 
 Contributions are always welcome. Please open a PR or an issue.

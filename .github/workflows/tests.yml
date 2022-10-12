@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install && npm run test
+      - run: yarn install && yarn run test
         env:
           GOERLI_URL: https://eth-goerli.g.alchemy.com/v2/VGk7VsddjmGF0sFtwvf0beFxnwY5zP7s
           MUAMBAI_URL: https://polygon-mumbai.g.alchemy.com/v2/ImtiQUGhwylhGEi6M42W8-4AkyzHSONa
