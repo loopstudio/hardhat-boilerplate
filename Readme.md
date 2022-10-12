@@ -1,3 +1,15 @@
+<br/>
+<p align="center">
+  <img src="./hardhat.png" width="225" alt="Hardhat logo">
+  <div align="center"> Created and maintained with ❤️ by
+    <a href="[https://loopstudio.dev/](https://loopstudio.dev/)">LoopStudio</a>
+    <img src="./loop.png" width="15" alt="Hardhat logo">
+
+  </div>
+
+  </p>
+<br/>
+
 # Hardhat Boilerplate
 
 Hardhat development boilerplate that enables to:
@@ -7,8 +19,6 @@ Hardhat development boilerplate that enables to:
 - Analyze coverage and gas ussage of our contracts
 - Verify contracts source code on etherscan
 - Use typescript on contract instances
-
-<sub> Created and maintained with ❤️ by <a href="[https://loopstudio.dev/](https://loopstudio.dev/)">LoopStudio</a> </sub>
 
 # Technical Details
 

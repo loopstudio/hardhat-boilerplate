@@ -32,7 +32,7 @@ const config: HardhatUserConfig = {
     */
     goerli: {
       url: process.env.GOERLI_URL || "",
-      accounts: [process.env.PRIVATE_KEY!],
+      accounts: [process.env.PRIVATE_KEY!, process.env.PRIVATE_KEY_2!],
       chainId: 5,
     },
     muambai: {

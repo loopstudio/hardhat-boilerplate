@@ -11,6 +11,10 @@ export const networkConfig: { [key: number]: Record<string, any> } = {
     name: "muambai",
     confirmations: 2,
   },
+  5: {
+    name: "goerli",
+    confirmations: 2,
+  },
 };
 
 export const developmentChains = ["hardhat", "localhost"];
