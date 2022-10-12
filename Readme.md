@@ -1,7 +1,5 @@
 # Hardhat Boilerplate
 
-<sub> Created and maintained with ❤️ by <a href="[https://loopstudio.dev/](https://loopstudio.dev/)">LoopStudio</a> </sub>
-
 Hardhat development boilerplate that enables to:
 
 - Deploy to multiple networks
@@ -9,6 +7,8 @@ Hardhat development boilerplate that enables to:
 - Analyze coverage and gas ussage of our contracts
 - Verify contracts source code on etherscan
 - Use typescript on contract instances
+
+<sub> Created and maintained with ❤️ by <a href="[https://loopstudio.dev/](https://loopstudio.dev/)">LoopStudio</a> </sub>
 
 # Technical Details
 
@@ -110,4 +110,13 @@ This boilerplate uses `typechain` capabilties to prevent errors and ensure corre
 
 Boilerplate comes with some example tasks:
 
-- Get balance of an address: ``
+- Get balance of an address: `npx hardhat balance-of --tokenaddress 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 --account 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --network localhost`
+
+- Transfer tokens: `npx hardhat transfer --tokenaddress 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 --account 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 --amount 0.1 --network localhost`
+
+In order to run them, a contract deploy must be done. Open two consoles and:
+
+1. Run `yarn hardhat node` on first one
+2. Run `yarn hardhat deploy --network localhost` on the second one
+
+You can execute tasks on the second terminal and see the transactions on the first one.
