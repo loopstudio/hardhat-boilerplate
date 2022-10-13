@@ -1,5 +1,6 @@
 {
   "name": "hardhat-boilerplate",
+  "description": "Boilerplate repository to get started with Hardhat and Ethereum development",
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test ./test/unit/*spec.ts --network hardhat",
