@@ -11,7 +11,7 @@
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write .",
-    "coverage": "hardhat coverage",
+    "coverage": "hardhat coverage && yarn istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "types": "hardhat typechain"
   },
   "devDependencies": {
