@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: yarn install && yarn run test
+      - run: yarn install && yarn run coverage
         env:
           GOERLI_URL: ${{ secrets.GOERLI_URL}}
           MUAMBAI_URL: ${{ secrets.MUAMBAI_URL }}
